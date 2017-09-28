@@ -63,6 +63,22 @@
               label: gettextCatalog.getString('Name'),
               required: true
             }
+          },
+          {
+            key: 'lat',
+            type: 'input',
+            templateOptions: {
+              label: gettextCatalog.getString('latitude '),
+              required: true
+            }
+          }
+          {
+            key: 'lon',
+            type: 'input',
+            templateOptions: {
+              label: gettextCatalog.getString('longitude'),
+              required: true
+            }
           }
         ];
       };
