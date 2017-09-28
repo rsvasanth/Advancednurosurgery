@@ -71,7 +71,7 @@
               label: gettextCatalog.getString('latitude '),
               required: true
             }
-          }
+          },
           {
             key: 'lon',
             type: 'input',
