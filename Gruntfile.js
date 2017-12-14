@@ -22,7 +22,7 @@ module.exports = function (grunt) {
     dist: 'dist',
     api: {
       development: 'http://52.21.177.154:3000/api/',
-      production: 'http://52.21.177.154:6000/api/'
+      production: 'http://52.21.177.154:3000/api/'
     },
     site: {
       development: 'http://52.21.177.154:3000',
