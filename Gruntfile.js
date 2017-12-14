@@ -1,3 +1,5 @@
+
+
 // Generated on 2015-01-02 using generator-angular 0.10.0
 'use strict';
 
@@ -21,14 +23,14 @@ module.exports = function (grunt) {
     test: require('./bower.json').appPath || 'client/test',
     dist: 'dist',
     api: {
-      development: 'http://52.21.177.154:3000/api/',
-      production: 'http://52.21.177.154:3000/api/'
+      development: 'http://localhost:4000/api/',
+      production: 'http://52.21.177.154:4000/api/'
     },
     site: {
-      development: 'http://52.21.177.154:3000',
-      production: ''
+      development: 'http://localhost:4000',
+      production: 'http://52.21.177.154:4000/api/'
     },
-    host: '172.31.22.183'
+    host: 'localhost'
   };
 
   // Define the configuration for all the tasks
