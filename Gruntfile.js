@@ -21,14 +21,14 @@ module.exports = function (grunt) {
     test: require('./bower.json').appPath || 'client/test',
     dist: 'dist',
     api: {
-      development: 'http://34.213.253.30:8000/api/',
-      production: 'http://34.213.253.30:8000/api/'
+      development: 'http://52.21.177.154:8000/api/',
+      production: 'http://52.21.177.154:6000/api/'
     },
     site: {
-      development: 'http://34.213.253.30:8000',
+      development: 'http://52.21.177.154:8000',
       production: ''
     },
-    host: '172.31.21.148'
+    host: '172.31.22.183'
   };
 
   // Define the configuration for all the tasks
